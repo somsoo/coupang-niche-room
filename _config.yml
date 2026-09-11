@@ -1,0 +1,19 @@
+title: 원룸 연구소
+description: 1인 가구 자취생을 위한 소형 가전 & 공간 활용 꿀템 스펙 비교
+url: "https://room.enjoy-onepage.com"
+baseurl: ""
+theme: minima
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - auto_poster.py
+  - requirements.txt
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - used_keywords.txt
+header_pages:
+  - all_posts.md
